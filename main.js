@@ -43,3 +43,8 @@ document.querySelector('.hero-btn').addEventListener('click', (e) => {
   lista.classList.add('ativo');
   lista.scrollIntoView({ behavior: 'smooth' });
 });
+
+document.querySelector('.hero-btn').addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('app').classList.add('mostrar-lista');
+});

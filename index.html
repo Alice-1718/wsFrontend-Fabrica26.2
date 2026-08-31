@@ -5,23 +5,26 @@
   <title>Heróis Overwatch</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="./img/overwatch-logo.png" type="image/x-icon">
-  
 </head>
 <body>
+  <div class="app" id="app">
     <header class="hero-header">
-       <div class="hero-content">
-        
+      <div class="hero-content">
         <h1>Heróis Overwatch</h1>
         <a href="#lista" class="hero-btn">Começar</a>
-       </div>
+      </div>
     </header>
-        <h1 class="titulo">Herois</h1>
-    
-        <script type="module" src="main.js"></script>
-        <div id="lista" class="grid"></div>
-    
-    <footer>
+
+    <main class="tela-lista" id="lista-tela">
+      <h2 class="titulo">Escolha seu herói</h2>
+      <div id="lista" class="grid"></div>
+
+      <footer>
         <p>&copy; 2023 Heróis Overwatch. Todos os direitos reservados.</p>
-    </footer>
+      </footer>
+    </main>
+  </div>
+
+  <script type="module" src="main.js"></script>
 </body>
 </html>
